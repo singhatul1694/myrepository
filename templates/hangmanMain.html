@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <h1 align="center">HANGMAN</h1>
+        <div>
+            <img src="/images" alt="Hangman">
+            <button id="pbtn" type="button" onclick="play()">PLAY</button> 
+            <button type="button" onclick="">High Score</button>                 
+        </div>
+        <form id="frm" style="display: none;" target="_blank">
+            Name :<input type="text" name="name"><br>
+            <input type="submit" value="Submit">
+        </form>
+        <script>
+            function play(){
+                var x=document.getElementById("frm");               
+                x.style.display="block";
+            }
+            
+        </script>
+    </body>
+</html>
